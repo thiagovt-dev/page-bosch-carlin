@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+
+:root{
+    --regularcolor: #141414;
+    --lightcolor: #e6e6e6;
+    --linkcolor: #2d74a4;
+    --boschblue: #008ecf;
+    --boschgreen: #00a8b0;
+    --boschdarkblue:#003253;
+    --boschgray: #eff1f2;   
+    --boschbluetrans: #008dcf5a; 
+}
