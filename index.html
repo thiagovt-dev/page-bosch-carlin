@@ -5,21 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-        <mat-icon fontIcon="bosch-ic-atom"></mat-icon> 
-    
+        content="width=device-width, initial-scale=1.0">    
     <title>Bosch Car Service | Carlin Auto Mecânica e Peças
     </title>
-    <link rel="icon" href="assets/img/bosch-service-logo-vector.png" type="image/x-icon" sizes="32x32">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/elements.css">
     <link rel="stylesheet" href="assets/css/variables.css">
     <link rel="stylesheet" href="assets/css/banner.css">
     <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/map.js"></script>
+    
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFvUDBZ0BOphIK1MX1fKekA5dK24KerSg&callback=initMap" defer></script> 
-    <script type="text/javascript" src="assets/js/banner.js" defer ></script>
-
+    
 </head>
 
 <body>
@@ -45,38 +42,31 @@
             <p>(99) 3014-4620 | 99167-8179</p>
         </div>
     </header>
-    <aside class="banner-content">
-        <div class="banner">
-            <div class="slides">
-                <div id="back" class="button">
-                    <i class="fas fa-chevron-left"></i>
-                </div>
-                <div id="next" class="button">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
-                <div id="atual" class="image">
-                    <img src="assets/img/banner/banner0.jpg"
-                        alt="">
-                </div>
-                <div class="image">
-                    <img src="assets/img/banner/banner1.gif"
-                        alt="">
-                </div>
-                <div class="image">
-                    <a href="#contato">
-                        <img src="assets/img/banner/banner2.jpg"
-                            alt="">
-                    </a>
-                </div>
-                <div class="image">
-                    <img src="assets/img/banner/banner3.png"
-                        alt="">
-                </div>
+    <aside class="slideshow-container">
+            <div id="atual" class="slides">
+            <div class="slide">
+                <img src="assets/img/banner/banner0.jpg" alt="Image 1">
             </div>
-            <div class="balls">
+            <div class="slide">
+                <img src="assets/img/banner/banner1.gif" alt="Image 2">
             </div>
-        </div>
+            <div class="slide">
+                <img src="assets/img/banner/banner2.jpg" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="assets/img/banner/banner3.png" alt="Image 4">
+            </div>
+            </div>
+            <div id="back" class="button"><i class="fas fa-chevron-left"></i></div>
+            <div id="next" class="button"><i class="fas fa-chevron-right"></i></div>
+            <div class="indicator-container">
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
     </aside>
+        
     <section id="service" class="service main-content">
         <div class="title-darkblue">
             <h1>Nossos Serviços</h1>
@@ -105,20 +95,7 @@
         </div>
 
     </section>
-    <!--<section class="main-content">
-        <h1 class="title-darkblue bosch-title">Bosch Service</h1>
-        <div class="bosch">
-            <div class="bosch-text-container">
-                    <div class="bosch-text">
-                        <h2 class="title-darkblue">Conheça o Bosch Service</h2>
-                        <h4>O Bosch Car Service é uma rede global de oficinas mecânicas que trabalham em parceria com a maior fabricante de autopeças do mundo, a marca Bosch.</h4>
-                    </div>
-            </div>
-            <div class="bosch-img">
-                <img src="assets/img/bcs_image_640w_360h.jpeg" alt="">
-            </div>
-        </div>
-    </section> -->
+ 
     <section id="contato" class="main-content contact-container ">
         <h1 class="title-darkblue">Nosso Contato</h1>
         <div class="contact-group">
@@ -170,8 +147,6 @@
         <div class="footer-img"></div>
     </footer>
 </body>
-
- 
-
+<script type="text/javascript" src="assets/js/banner.js"></script>
 
 </html>

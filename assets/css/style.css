@@ -30,14 +30,11 @@
     right: 0;
     width: 100%; 
     border-bottom: 0.125rem solid var(--boschblue);
+    margin-bottom: 0.5rem;
 
 }
 .menu-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
+
     font-family: 'Bosch Sans Regular';
 }
 .menu-content ul{
@@ -68,6 +65,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 5rem;
 }
 .title{
     text-align: center;
@@ -251,4 +249,34 @@
     margin-top: 5rem;
     margin-bottom: 0;
     font-size: 0.8rem;
+}
+/*tablet*/
+@media screen and (min-width:768px) and (max-width:992px){
+    .header1 img{
+        width: 160px;
+        height: 80px;
+    }
+    .main-menu{
+        width: 90%;
+    }
+    
+    .menu-content{
+        margin: 0 auto;
+    }
+    .banner{
+        max-height: 35vh;
+    }
+
+    .header2 p{
+        display: none;
+    }
+    
+    .menu-content ul{
+       align-items: center;
+       text-align: center;
+    }
+    .menu-content ul li a::after{
+        display: none; 
+    }
+    
 }
