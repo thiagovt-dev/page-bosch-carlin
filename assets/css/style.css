@@ -92,11 +92,11 @@
     display: block;
     max-width: 100%; 
     height: auto;
-    transition: all 600ms ease-in-out;
 }
 .service-img:hover{
     cursor: pointer;
     transform: scale(1.1) translate(-1%, 1%) ;
+    transition: all 600ms ease-in-out;
     
 }
 .how-we-are{
